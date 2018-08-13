@@ -1,5 +1,6 @@
 ## Fire Mountain Gems & Beads Web Developer Evaluation
 **Introduction**
+
 Hello, applicant. This project will evaluate your skill level in several different categories involved in the day-to-day life of a web developer at Fire Mountain.
 
 The goal of the project is to create a web-based customer service ticketing application from scratch as best you can based upon the following acceptance criteria. Feel free to use whatever third-party libraries you think will assist in achieving this goal.
@@ -42,6 +43,7 @@ Let's move on to some preparatory steps:
     2. Tickets persist between user sessions
 
 **Optional Features**
+
 *Please pick two of the following:*
  - Each ticket, when viewing status, contains a persistent collection of comments. These comments come from the assigned technician, the customer service representative, and the submitting user
  - A user's list of tickets is filterable by any field except Description
@@ -49,5 +51,6 @@ Let's move on to some preparatory steps:
  - The application has a second user role of Customer Service representative. These representatives must be able to view, edit, and respond to any tickets assigned to them. The representatives must also have the ability to assign tickets to technicians.
 
 **Extra Credit**
+
  *Time to show off a little:*
  - Comments are transferred between client and server in real-time.
