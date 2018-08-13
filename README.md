@@ -3,7 +3,7 @@
 
 Hello, applicant. This project will evaluate your skill level in several different categories involved in the day-to-day life of a web developer at Fire Mountain.
 
-The goal of the project is to create a web-based customer service ticketing application from scratch as best you can based upon the following acceptance criteria. Feel free to use whatever third-party libraries you think will assist in achieving this goal.
+The goal of the project is to create a fully operational, web-based customer service ticketing application from scratch as best you can within the allotted time based upon the following acceptance criteria. Feel free to use whatever third-party libraries you think will assist in achieving this goal.
 
 When the project is complete, or the time allotted for completion has expired, please create a pull request against the master branch to have your attempt evaluated. ***Good luck, applicant!***
 
@@ -16,6 +16,7 @@ Let's move on to some preparatory steps:
 
 **General Requirements**
  - The back-end of the website must be implemented in .NET using C#. The .NET version can be whatever you prefer from 4.5.2 to whatever the latest version, to include Core, is at the time of your evaluation.
+ - With the exception of extra credit features, the website must use the MVC or MVVM patterns
  - All work must be completed as a part of your named branch.
  - All features within the acceptance criteria must be included in the project.
  - At least two features within the list of optional features must be completed.
@@ -54,3 +55,4 @@ Let's move on to some preparatory steps:
 
  *Time to show off a little:*
  - Comments are transferred between client and server in real-time.
+ - 
