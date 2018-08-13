@@ -43,17 +43,20 @@ Let's move on to some preparatory steps:
        2. Customer Service Representative
        3. Assigned Technician
     2. Tickets persist between user sessions
+ 5. All forms must use some kind of common sense validation of field content and prevent the user from submitting until the entire form is valid.
 
 **Optional Features**
 
 *Please pick two of the following:*
- - Each ticket, when viewing status, contains a persistent collection of comments. These comments come from the assigned technician, the customer service representative, and the submitting user
- - A user's list of tickets is filterable by any field except Description
- - The application uses authentication to secure its contents
+ - Each ticket, when viewing status, contains a persistent collection of comments. These comments come from the assigned technician, the customer service representative, and the submitting user.
+ - A user's list of tickets is filterable by any field except Description.
+ - The application uses authentication to secure its contents.
  - The application has a second user role of Customer Service representative. These representatives must be able to view, edit, and respond to any tickets assigned to them. The representatives must also have the ability to assign tickets to technicians.
 
 **Extra Credit**
 
  *Time to show off a little:*
  - Comments are transferred between client and server in real-time.
- - 
+ - Application is completely responsive and displays nicely on mobile devices.
+ - Some part, or all, of the application is actually a single-page application (Angular 1/2, Vue.js, Ember, etc.)
+ - The application's back-end exposes its data via a REST API for consumption by other clients.
