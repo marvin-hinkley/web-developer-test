@@ -22,6 +22,7 @@ Let's move on to some preparatory steps:
  - At least two features within the list of optional features must be completed.
  - Feel free to attempt any additional features from the list of extra credit features.
  - You must include statements to generate objects for whichever database in which you persist application data (tables, stored procedures, view, etc.).
+ - While research before, during, or after the evaluation is encouraged - always keep learning! - please do not simply copy and paste StackOverflow answers. We all know what Jon Skeet's code looks like, and it deprives both you and Fire Mountain of valuable time and resources.
 
 **Acceptance Criteria**
  1. Users must be able to view a list of tickets submitted in the past.
