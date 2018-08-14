@@ -27,21 +27,22 @@ Let's move on to some preparatory steps:
 **Acceptance Criteria**
  1. Users must be able to view a list of tickets submitted in the past.
     1. List must include status of each ticket
-    2. List must include notification of communications regarding each ticket
+    2. List must include indication that a ticket has been updated (ex. badge or field)
  2. Each ticket will have the following fields:
     1. ID
-    2. Status
-    3. Category [Networking, Software, Hardware, Facilities]
+    2. Status - restricted to a list of: New, Assigned, & Closed
+    3. Category - restricted to a list of: Networking, Software, Hardware, & Facilities
     4. Title
     5. Description
     6. Customer Service Representative
     7. Assigned Technician
  3. Each user has a separate list of tickets
  4. User must be able to submit new tickets
-    1. All fields are user-populated with the exception of:
+    1. All fields are user-populated with the exception of the following which are, other than Status, initially blank:
        1. ID
-       2. Customer Service Representative
-       3. Assigned Technician
+       2. Status: Populated with 'New'
+       3. Customer Service Representative
+       4. Assigned Technician
     2. Tickets persist between user sessions
  5. All forms must use some kind of common sense validation of field content and prevent the user from submitting until the entire form is valid.
 
@@ -60,3 +61,4 @@ Let's move on to some preparatory steps:
  - Application is completely responsive and displays nicely on mobile devices.
  - Some part, or all, of the application is actually a single-page application (Angular 1/2, Vue.js, Ember, etc.)
  - The application's back-end exposes its data via a REST API for consumption by other clients.
+ - The application's sytling is defined using a CSS pre-processor such as SASS or LESS.
